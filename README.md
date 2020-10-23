@@ -1,6 +1,6 @@
 # Boost
 
-An [Ashima](https://ashima.ph) Employee Portal financial tool.
+An [Ashima](https://ashima.ph) Employee Portal financial planning tool.
 
 
 ## Built using [Go](https://golang.org/)
