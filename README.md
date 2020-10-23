@@ -5,7 +5,7 @@ An Ashima Employee Portal financial tool.
 
 ## Built using [Go](https://golang.org/)
 
-Go installation [steps](https://golang.org/doc/)
+Boost is built in go. Go installation [steps](https://golang.org/doc/)
 
 
 ### Framework used: [Revel](https://revel.github.io/)
