@@ -8,8 +8,8 @@ An Ashima Employee Portal financial tool.
 Go installation [steps](https://golang.org/doc/)
 
 
-### Framework: [Revel](https://revel.github.io/)
-More [info](https://revel.github.io/tutorial/gettingstarted.html) about `revel`, installation and documentaion.
--full golang web implementation
--api ready
--mvc format
+### Framework used: [Revel](https://revel.github.io/)
+More [info](https://revel.github.io/tutorial/gettingstarted.html) about **revel**, `installation` and `documentaion`.
+- full golang web implementation
+- api ready
+- mvc format
