@@ -1,21 +1,83 @@
-{{set . "title" "Home"}}
+{{set . "title" "Welcome to Boost!"}}
+
 {{template "header.html" .}}
 
-<header class="jumbotron" style="background-color:#A9F16C">
+<!-- <header class="jumbotron" style="background-color:#A9F16C">
   <div class="container">
     <div class="row">
-      <h1>It works!</h1>
+      <h1>Welcome to boost!</h1>
       <p></p>
     </div>
   </div>
-</header>
+</header> 
 
-<div class="container">
+<div class="container" style="background: url(../public/img/bg-login-support.jpg)">
   <div class="row">
     <div class="span6">
       {{template "flash.html" .}}
     </div>
   </div>
+</div> -->
+
+<div id="login">
+    <div class="vh">
+	    <div class="overlay-white">
+	        <div class="login-logo"> 
+	            <img src="../public/img/img-footer-logo.png" width="214" height="137" alt="ashima-logo">
+            </div>
+	        <div class="imba-box">	        
+	            <div class="imbabox-header">
+	                <h2>Login to your Account</h2>
+	            </div>
+	        <div class="imbabox-body form">
+                <table class="tbl">
+                    <tr>
+                        <td style="width: 91px;">
+                            <label>Email</label>
+                        </td>
+                        <td>
+                            <div class="boxfield block">
+                                <input class="form-control" type="text" name="user" id="user" value=""/>
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Password</label>
+                        </td>
+                        <td>
+                            <div class="boxfield block">
+                                <input class="form-control" type="password" name="pass" autocomplete="off" value="" />
+                                
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding-top:5px;" colspan="2">
+                            <table class="tbl">
+                                <tr>
+                                    <td style="width:170px; padding-left:13px;" class="vertical-mid text-left">
+                                        
+                                    </td>
+                                    <td>
+                                        <input class="btn btn-md" name="login" type="submit" value="Login">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td style="padding-top:15px;" colspan="2"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="powerby-logo">
+    <img src="public/img/img-powerbyk.png" width="75" height="94" alt="powered by" />
 </div>
 
 {{template "footer.html" .}}
